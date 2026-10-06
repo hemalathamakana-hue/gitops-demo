@@ -1,0 +1,13 @@
+GitOps Pull-Based Trigger Simulation
+
+Desired State:
+Application: demo-app
+Image: nginx:latest
+Replicas: 2
+
+GitOps Process:
+1. Developer changes the YAML file.
+2. The change is pushed to GitHub.
+3. A GitOps system detects the change.
+4. The system pulls the latest configuration.
+5. The application state is updated to match the YAML.
